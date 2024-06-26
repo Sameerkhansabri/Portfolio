@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Developer Protfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+
+        </nav>
+
+        <div class="main">
+             
+            <div class="mainText">
+                <h3>Hello  I am</h3>
+                <h1>Sameer Khan</h1>
+                <p>Hey Everyone, I Am FrontEnd Developer and I have skills <br>Like HTML CSS And javaScript</p>
+                <button onclick="downlodeBtn()">Downlode CV</button>
+            </div>
+            <img src="Main.JPG" alt="">
+        </div>
+
+        <div id="about">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                     <h2>Sameer Khan</h2>
+                     <p>FrontEnd Developer</p>
+                     <p>Hey I Am FrontEnd Developer Specialization In HTML CSS JAVASCRIPT And Also C++ And JAVA<br>
+                    </p>
+                </div>
+                <img src="IMG.JPG" alt="">
+            </div>
+        </div>
+
+        <div id="service">
+            <div class="head">
+                <h1>Service</h1>
+            </div>
+            <div class="btns">
+                <button class="category" id="web">Web Development</button>
+                
+            </div>
+            <div class="service">
+               
+                <div class="serviceCard" id="webDesign">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Application</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore minus consequatur cum id quia et nulla ad exercitationem aliquam a accusantium non fugit, deleniti dolores, provident esse quis! Quia, aliquam.</p>
+                    <button>contact</button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="head">
+                <h1>My Work</h1>
+            </div>
+            <div class="work">
+                <div class="Web PreLoad Page">
+                    <img src="Web Page.png" alt="">
+                    <h2>Web Preloading Page</h2>
+                    <p>Responsive Preloading Website Using API HTML and CSS</p>
+                    
+                
+                    <div class="workcard">
+                    <img src="Calculator.png" alt="">
+                    <h2>Calculator</h2>
+                    <p>Responsive Website Calculator Using HTML and CSS</p>
+                
+            <div id="contact">
+                <div class="head">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="contact">
+                    <input type="text" placeholder="Enter Your Name" id="name">
+                    <input type="Email" placeholder="Enter Your Email" id="email">
+                    <textarea  rows="6" cols="35" placeholder="Your Message..."  id="msg"></textarea>
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="text">
+                    <p>Privacy Policy</p>
+                    <p>Term & Condition</p>
+                    <p>Disclaimer</p>
+                </div>
+                 
+            </div>
+        </div>
+     </div>
+     
+    <script src="index.js"></script>
+</body>
+</html>

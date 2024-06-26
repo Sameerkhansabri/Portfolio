@@ -1,0 +1,17 @@
+// index.js
+
+function downloadBtn() {
+    window.open('path/to/your/CV.pdf', '_blank');
+}
+
+document.getElementById('submit').addEventListener('click', function() {
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    let msg = document.getElementById('msg').value;
+
+    if (name && email && msg) {
+        alert('Message sent successfully!');
+    } else {
+        alert('Please fill in all fields.');
+    }
+});

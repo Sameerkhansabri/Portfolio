@@ -1,0 +1,183 @@
+/* index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+    width: 100%;
+}
+
+nav .logo h1 {
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#bar {
+    display: none;
+}
+
+.main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mainText h3 {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+
+.mainText h1 {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0;
+}
+
+.mainText p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+}
+
+.mainText button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.main img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.head h1 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about, .service, .work, .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.aboutText, .serviceCard, .workcard, .contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about img, .serviceCard img, .workcard img {
+    width: 200%;
+    max-width: 500px;
+    height: auto;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btns button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.serviceCard {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.serviceCard i {
+    font-size: 40px;
+    color: #333;
+}
+
+.serviceCard button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact input, .contact textarea {
+    width: 450%;
+    max-width: 450px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer .icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer .text p {
+    margin: 5px 0;
+}
